@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Exercise Solution</title>
+</head>
+<body>
+
+<form>
+	<h1>Register</h1>
+<!--first and last name-->
+	<div>
+		<p>
+			<label for="firstname">First name:</label>
+			<input id="firstname" type="text" placeholder="John" pattern="[a-zA-Z]+" title="Aplabets only" required>
+		</p>
+		<p>
+			<label for="lastname">Last name:</label>
+			<input id="lastname" type="text" placeholder="Smith" pattern="[a-zA-Z]+" required>
+		</p>
+	</div>
+<!-- radio buttons for gender -->
+	<div>
+		<label>Gender</label><br>
+
+		<input id="male" type="radio" name="gender" value="male" required>
+		<label for="male">Male</label><br>
+
+		<input id="female" type="radio" name="gender" value="female" required>
+		<label for="female">female</label><br>
+
+		<input id="other" type="radio" name="gender" value="other" required>
+		<label for="other">other</label>
+	</div>
+<!-- email id -->
+	<div>
+		<p>
+			<label for="email">Email:</label>
+			<input id="email" type="email" placeholder="email address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="characters@characters.domain (characters followed by an @ sign, followed by more characters, and then a "." After the "." sign, you can only write 2 to 3 letters from a to z:" required>
+		</p>
+	<!-- Password -->
+		<p>
+			<label for="password">Password:</label>
+			<input id="password" type="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,10}" title="Must be 5 to 10 Characters long containing at least one number, one uppercase, one lowercase letter" required>
+		</p>
+	</div>
+<!--birthday  -->
+	<div>
+		<p>
+			<label for="birthday" >Birthday:</label>
+			<input id="birthday" type="month" required>
+		</p>	
+	</div>
+<!--I agree checkbox  -->
+	<div>
+			<input id="agreed" name="agreed" type="checkbox" required>
+			<label for="agreed" >I agree to the terms and conditions</label>
+<!-- Submit button -->
+		<p><button>Submit</button></p>
+	</div>
+</form>
+
+</body>
+</html>
