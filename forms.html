@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+	<h1>Login</h1>
+<!-- action attribute of form tag -->
+<!-- this attribute tells the form tag where to send the data -->
+
+<!-- method attribute of form tag -->
+<!-- this attribute tells about which HTTP method (get/post) -->
+
+<form>
+	<p>
+		<label for="username">Username:</label>
+		<input id="username" type="text" name="username" placeholder="username" required="text"></p>
+	<p>
+		<label for="password">Password:</label>
+		<input id="password" type="password" name="password" placeholder="password" required></p>
+	<p>
+		<label for="email">Email:</label>
+		<input id="email" type="email" placeholder="email" name="email" required>
+	</p>
+	<p>Favourite Team</p>
+		<!-- use LABEL after INPUT to put radio button first -->
+		<p>
+			<input id="liverpool" type="radio" name="footballTeam" value="liverpool" required>
+			<label for="liverpool">Liverpool</label>
+		</p>
+		<p>
+			<input id="manu" type="radio" name="footballTeam" value="manu" required>
+			<label for="manu">Manchester United</label>	
+		</p>
+		<!-- usage of SELECT tag -->
+	<p>Other Teams</p>	
+	<select name="otherTeams" required>
+		<option>Default</option>
+		<option value="arsenal">ARSENAL</option>
+		<option value="manc">MANCHESTER CITY</option>
+		<option value="chelsea">CHELSEA</option>
+		<option value="spurs">SPURS</option>
+	</select>
+
+	<p>FeedBack</p>
+	<textarea name="feedback" rows="10" cols="50"></textarea>
+	<p><button>Submit</button></p>
+</form>
+
+</body>
+</html>
