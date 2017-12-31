@@ -1,0 +1,16 @@
+h3{
+	text-decoration: underline;
+}
+
+img{
+	width: 30%;
+	/*to remove spacing and place elements next to each other*/
+	float: left;
+	 /*since our width is 30% and we have 10% space left
+	 so we want to divide the 10% equally between the 3 images
+	 so we do 10/6, this is beacuse we have 3 photos and each photo has
+	 a left and right border in consideration in a row. So to make 3 pics 
+	 fit with equal margin we have in total 6 margins(left & right * 3)
+	 so 10 divided by 6 !!*/
+	margin: 1.66%;
+}
