@@ -1,0 +1,50 @@
+body{
+	border: 20px solid #bdc3c7;
+	font-family: 'Source Sans Pro', sans-serif;	
+	/*margin for placing the body in center*/
+	margin: 20px auto;
+	padding: 20px;
+	/*width tag so that it doesn't occupy the whole page*/
+	width:50%;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.date{
+	color: #3498db;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	/*same can be done with following cmd
+	letter-spacing: 0.2rem;
+	this would give the same reult as the one used above*/
+}
+
+.h2tag{
+	color: #2c3e50;
+	text-transform: capitalize;
+	/*rem is root empahsis
+	in this case, it sets the the font of h2 tag
+	twice that of original font seleceted, which
+	is way back we did in google fonts*/
+	font-size: 2.0rem;
+	font-weight: bold;
+	/*with this rem you don't need to worry about 
+	nesting of tags*/
+}
+
+.sidebar{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+/*below code taken from internet*/
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
