@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Grid System</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<style type="text/css">
+		.pink{
+			background: pink;
+			border: 1px solid black;
+		}
+
+		.orange{
+			background: orange;
+			border : 1px dashed red;
+			height : 20px;
+		}
+	</style>
+
+</head>
+
+<body>
+	<!-- Grid System -->
+	<!-- understanding the purpose -->
+	<!-- understanding the four diffferent sizes -->
+	<!-- nested grids -->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 pink">
+				<div class="row">
+					<div class="col-lg-6 orange">first</div>
+					<div class="col-lg-6 orange">second</div>					
+				</div>
+			</div>
+			<div class="col-md-3 pink">two</div>
+			<div class="col-md-3 pink">three</div>
+			<div class="col-md-3 pink">
+				<div class="row">
+					<div class="col-lg-4 orange">new</div>
+					<div class="col-lg-4 orange">new</div>
+					<div class="col-lg-4 orange">new</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+</body>
+</html>
