@@ -1,0 +1,29 @@
+.winner{
+	color: green;
+}
+
+.container{
+	text-align: center;
+	padding: 13%;
+}
+
+body{
+	background: #EFEFBB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+ul{
+	list-style: none;
+	margin-left: 200px;
+	text-align: left;
+}
+
+h1{
+	font-size: 5.0em;
+}
+
+h4{
+	text-decoration: underline;
+}
