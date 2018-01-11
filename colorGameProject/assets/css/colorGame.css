@@ -1,0 +1,74 @@
+body{
+	background: #232323;
+	font-family: Avenir, Montserrat;
+	margin: 0;
+}
+
+.square {	           
+	background: purple;
+	border-radius: 15%; /* getting round edges on squares*/
+	float: left;
+	margin: 1.66%;	
+	padding-bottom: 30%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s; /*webkit and moz are for different browser support for transition*/
+	-moz-transition: background 0.6s;
+	width: 30%; /*width and margin logic so as to fit 3 boxes in one line */
+}
+
+#container{
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+h1 {
+	background-color: steelblue;
+	color: white;
+	font-weight: normal;
+	line-height: 1.1;
+	margin: 0;
+	padding: 20px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#message{
+	display: inline-block; /* this code creates 20 percent of space for the span tag*/
+	width: 20%;
+}
+
+#stripe{
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected{
+	background-color: steelblue;
+	color: white;
+	
+}
+
+#colorDisplay{
+	font-size: 200%;
+}
+
+button{
+	border: none; 
+	color: steelblue;
+	/*background: none;*/
+	font-size: inherit;
+	font-weight: 700;
+	height: 100%; /*expands the button to cover 100 percent of the container it is placed inside*/
+	letter-spacing: 1px;
+	transition: all 0.3s; /*adds animation for changing effects*/
+	-moz-transition: all 0.6s;
+	-webkit-transition: all 0.6s;
+	outline: none; /*removes the outline around button when it is clicked*/
+	text-transform: uppercase;
+}
+
+button:hover{
+	background-color: steelblue;
+	color: white;
+}
