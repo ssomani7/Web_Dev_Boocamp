@@ -1,0 +1,31 @@
+body{
+	background: url(/Users/saurabhsomani/Desktop/web_development_bootcamp/html/landingPageProject/assets/images/matthew-smith-5935.jpg); /* /*gerrard.jpg*/
+	background-position: center;
+	background-size: cover;
+	font-family: 'Lato', sans-serif;
+}
+
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+#content{
+	color: white;
+	padding: 25%;
+	text-align: center;
+	text-shadow: 0 4px 3px rgba(0,0,0,0.4),
+				 0 8px 13px rgba(0,0,0,0.1),
+				 0 18px 23px rgba(0,0,0,0.1);
+}
+
+h1{
+	font-size: 5em;
+	font-weight: 700;
+}
+
+hr{
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	border-top: 1px solid #f8f8f8;
+	width: 400px;
+}
